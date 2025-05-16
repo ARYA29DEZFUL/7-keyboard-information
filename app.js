@@ -31,7 +31,7 @@ code.addEventListener("click", () => {
 })
 
 Body.addEventListener("keydown", (event) => {
-
+    event.preventDefault()
     if (!flag) {
         flag = "key"
     }

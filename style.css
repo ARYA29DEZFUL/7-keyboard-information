@@ -37,7 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 200px;
+  font-size: 160px;
   color: rgb(28, 28, 28);
 }
 
@@ -82,4 +82,11 @@ body {
   align-items: center;
   font-size: 25px;
   color: rgb(28, 28, 28);
+}
+
+veepn-guard-alert {
+  display: none;
+}
+veepn-lock-screen {
+  display: none;
 }
